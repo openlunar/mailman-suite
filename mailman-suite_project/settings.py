@@ -159,8 +159,8 @@ DATABASES = {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'NAME': 'mailmandb',
        'USER': 'mailman',
+       # 'HOST': 'localhost',
        # 'PASSWORD': 'database_password',
-       'HOST': 'localhost',
     }
 }
 
