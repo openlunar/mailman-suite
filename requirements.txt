@@ -1,0 +1,5 @@
+mailman
+postorius
+hyperkitty
+django=2.2
+mailman-hyperkitty
