@@ -17,5 +17,7 @@ pip install -r requirements.txt
 
 cd mailman-suite_project
 python install.py
-python3 manage.py migrate
+python manage.py migrate
+python manage.py collectstatic
+
 ```

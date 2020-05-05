@@ -37,7 +37,7 @@ SECRET_KEY = 'change-this-on-your-production-server'
 DEBUG = True
 
 ADMINS = (
-     ('Mailman Suite Admin', 'root@localhost'),
+     ('Mailman Suite Admin', 'admin@openlunar.org'),
 )
 
 SITE_ID = 1
@@ -46,8 +46,8 @@ SITE_ID = 1
 # See https://docs.djangoproject.com/en/1.8/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = [
     "localhost",  # Archiving API from Mailman, keep it.
-    # "lists.your-domain.org",
-    # Add here all production URLs you may have.
+    "lists.openlunar.org",
+    "lists.moondialogs.org",
 ]
 
 # Mailman API credentials
