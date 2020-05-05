@@ -271,14 +271,14 @@ LOGOUT_URL = 'account_logout'
 # otherwise the emails may get rejected.
 # https://docs.djangoproject.com/en/1.8/ref/settings/#default-from-email
 # DEFAULT_FROM_EMAIL = "mailing-lists@you-domain.org"
-DEFAULT_FROM_EMAIL = 'postorius@localhost.local'
+DEFAULT_FROM_EMAIL = 'admin@openlunar.org'
 
 # If you enable email reporting for error messages, this is where those emails
 # will appear to be coming from. Make sure you set a valid domain name,
 # otherwise the emails may get rejected.
 # https://docs.djangoproject.com/en/1.8/ref/settings/#std:setting-SERVER_EMAIL
 # SERVER_EMAIL = 'root@your-domain.org'
-SERVER_EMAIL = 'root@localhost.local'
+SERVER_EMAIL = 'admin@openlunar.org'
 
 # Change this when you have a real email backend
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
