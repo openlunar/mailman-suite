@@ -7,6 +7,7 @@ Forked from https://gitlab.com/mailman/mailman-suite
 
 ```
 git clone https://github.com/openlunar/mailman-suite.git
+
 cd mailman-suite
 python3 -m venv venv
 source venv/bin/activate

@@ -1,6 +1,5 @@
 mailman
 postorius
 hyperkitty
-django
-#django==2.2
+django==2.2
 psycopg2-binary
