@@ -140,28 +140,28 @@ WSGI_APPLICATION = 'wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        # Use 'sqlite3', 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'django.db.backends.sqlite3',
-        # DB name or path to database file if using sqlite3.
-        'NAME': os.path.join(BASE_DIR, 'mailmansuite.db'),
-        # The following settings are not used with sqlite3:
-        'USER': 'mailmansuite',
-        'PASSWORD': 'mmpass',
-        # HOST: empty for localhost through domain sockets or '127.0.0.1' for
-        # localhost through TCP.
-        'HOST': '',
-        # PORT: set to empty string for default.
-        'PORT': '',
-    }
+    # 'default': {
+    #     # Use 'sqlite3', 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     # DB name or path to database file if using sqlite3.
+    #     'NAME': os.path.join(BASE_DIR, 'mailmansuite.db'),
+    #     # The following settings are not used with sqlite3:
+    #     'USER': 'mailmansuite',
+    #     'PASSWORD': 'mmpass',
+    #     # HOST: empty for localhost through domain sockets or '127.0.0.1' for
+    #     # localhost through TCP.
+    #     'HOST': '',
+    #     # PORT: set to empty string for default.
+    #     'PORT': '',
+    # }
     # Example for PostgreSQL (recommanded for production):
-    #'default': {
-    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #    'NAME': 'database_name',
-    #    'USER': 'database_user',
-    #    'PASSWORD': 'database_password',
-    #    'HOST': 'localhost',
-    #}
+    'default': {
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'mailmandb',
+       'USER': 'mailman',
+       # 'PASSWORD': 'database_password',
+       'HOST': 'localhost',
+    }
 }
 
 
