@@ -421,7 +421,7 @@ LOGGING = {
             'level': 'INFO',
             #'class': 'logging.handlers.RotatingFileHandler',
             'class': 'logging.handlers.WatchedFileHandler',
-            'filename': '/opt/mailman/mailmansuite.log',
+            'filename': '/opt/mailman/logs/mailmansuite.log',
             'formatter': 'verbose',
         },
         'console': {
