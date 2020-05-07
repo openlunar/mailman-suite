@@ -30,9 +30,7 @@ import os
 #         new_sys_path.append(item)
 #         sys.path.remove(item)
 #         sys.path[:0] = new_sys_path
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "webapp.settings")
 
 from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
-
 application = get_wsgi_application()
