@@ -106,7 +106,7 @@ MIDDLEWARE = (
     'postorius.middleware.PostoriusMiddleware',
 )
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'webapp.urls'
 
 
 TEMPLATES = [
