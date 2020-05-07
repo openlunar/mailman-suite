@@ -19,5 +19,4 @@ cd mailman-suite_project
 python install.py
 python manage.py migrate
 python manage.py collectstatic
-
 ```

@@ -421,7 +421,7 @@ LOGGING = {
             'level': 'INFO',
             #'class': 'logging.handlers.RotatingFileHandler',
             'class': 'logging.handlers.WatchedFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', 'mailmansuite.log'),
+            'filename': '/opt/mailman/mailmansuite.log',
             'formatter': 'verbose',
         },
         'console': {
