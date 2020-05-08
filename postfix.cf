@@ -1,6 +1,5 @@
 # See /usr/share/postfix/main.cf.dist for a commented, more complete version
 
-
 # Debian specific:  Specifying a file name will cause the first
 # line of that file to be used as the name.  The Debian default
 # is /etc/mailname.
@@ -45,9 +44,6 @@ inet_protocols = all
 
 owner_request_special = no
 
-transport_maps =
-    hash: /opt/mailman/mailman-suite/var/data/postfix_lmtp
-local_recipient_maps =
-    hash: /opt/mailman/mailman-suite/var/data/postfix_lmtp
-relay_domains =
-    hash:/opt/mailman/mailman-suite/var/data/postfix_domains
+transport_maps = hash:/opt/mailman/mailman-suite/var/data/postfix_lmtp
+local_recipient_maps = hash:/opt/mailman/mailman-suite/var/data/postfix_lmtp
+relay_domains = hash:/opt/mailman/mailman-suite/var/data/postfix_domains
