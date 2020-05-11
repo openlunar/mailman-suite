@@ -17,3 +17,8 @@ sudo cp apache.conf /etc/apache2/sites-available/mailman-ssl.conf
 cd /etc/apache2/sites-enabled
 sudo ln -s ../sites-available/mailman-ssl.conf .
 ```
+
+## Mailman and Mailman HyperKitty
+
+These two files are offered here as examples.  They are moved into possition
+in the root directory when install.py is run
