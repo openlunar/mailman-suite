@@ -1,6 +1,7 @@
 mailman
 postorius
 hyperkitty
+mailman-hyperkitty
 django>=2.2.10,<2.3
 psycopg2-binary
 whoosh
