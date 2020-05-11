@@ -22,3 +22,9 @@ docs/_build/*
 db.sqlite3
 var/
 static/
+
+# Ignore the two main .cfg files in the root dir
+# but don't ignore the ones in the conf dir
+/mailman.cfg
+/mailman-hyperkitty.cfg
+!/conf/()

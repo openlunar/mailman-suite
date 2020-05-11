@@ -14,9 +14,9 @@ source venv/bin/activate
 pip install pip --upgrade
 pip install wheel
 pip install -r requirements.txt
+python install.py
 
 cd webapp
-python install.py
 python manage.py migrate
 python manage.py collectstatic
 ```
