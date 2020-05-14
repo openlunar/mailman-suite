@@ -47,3 +47,9 @@ owner_request_special = no
 transport_maps = hash:/opt/mailman/mailman-suite/var/data/postfix_lmtp
 local_recipient_maps = hash:/opt/mailman/mailman-suite/var/data/postfix_lmtp
 relay_domains = hash:/opt/mailman/mailman-suite/var/data/postfix_domains
+
+# DKIM
+milter_default_action = accept
+milter_protocol = 2
+smtpd_milters = inet:localhost:8891
+non_smtpd_milters = inet:localhost:8891
