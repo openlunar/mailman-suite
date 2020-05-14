@@ -1,8 +1,13 @@
+# Django pinned until HyperKitty is updated to support 3.0
+django>=2.2.10,<2.3
+
 mailman
 postorius
 hyperkitty
 mailman-hyperkitty
-django>=2.2.10,<2.3
+
 psycopg2-binary
 whoosh
 uwsgi
+
+pip-review
