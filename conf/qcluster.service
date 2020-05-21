@@ -1,0 +1,11 @@
+[Unit]
+Description=HyperKitty async tasks runner
+After=network.target remote-fs.target
+
+[Service]
+ExecStart=/opt/mailman/mailman-suite/start_qcluster.sh
+User=mailman
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
