@@ -449,6 +449,11 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
+        'django_q': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+
     },
     'formatters': {
         'verbose': {
