@@ -21,6 +21,12 @@ new_secret = ''.join(random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz012
 with open(WEBAPP_SETTINGS, 'w') as settings_file:
     settings_file.writelines(f"SECRET_KEY = '{new_secret}'\n")
     settings_file.writelines("\n")
+    settings_file.writelines("ALLOWED_HOSTS = [\n")
+    settings_file.writelines("    '127.0.0.1',\n")
+    settings_file.writelines("    'lists.moondialogs.org',\n")
+    settings_file.writelines("    'lists.openlunar.org',\n")
+    settings_file.writelines("]\n")
+    settings_file.writelines("\n")
     settings_file.writelines("# Mailman API Credentials\n")
     settings_file.writelines("MAILMAN_REST_API_URL = 'http://localhost:8001'\n")
     settings_file.writelines("MAILMAN_REST_API_USER = 'admin'\n")
