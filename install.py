@@ -32,7 +32,7 @@ with open(WEBAPP_SETTINGS, 'w') as settings_file:
     settings_file.writelines("MAILMAN_REST_API_USER = 'admin'\n")
     settings_file.writelines("MAILMAN_REST_API_PASS = '5eHfDgEn'\n")
     settings_file.writelines("\n")
-    settings_file.writelines("# Mailman API Credentials\n")
+    settings_file.writelines("# Mailman Archiver (HyperKitty)\n")
     settings_file.writelines("MAILMAN_ARCHIVER_KEY = 'p7PQASwe4JysG8yT'\n")
     settings_file.writelines("MAILMAN_ARCHIVER_FROM = ('127.0.0.1', '::1')\n")
     settings_file.writelines("\n")
