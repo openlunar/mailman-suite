@@ -493,7 +493,7 @@ if DEBUG == True:
 #
 
 # Only display mailing-lists from the same virtual host as the webserver
-FILTER_VHOST = False
+FILTER_VHOST = True
 
 
 POSTORIUS_TEMPLATE_BASE_URL = 'http://localhost:8000'
