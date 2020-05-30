@@ -28,3 +28,7 @@ static/
 /mailman.cfg
 /mailman-hyperkitty.cfg
 !/conf/()
+
+# Ignore archives
+/emails
+/fulltext_index
